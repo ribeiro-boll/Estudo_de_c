@@ -4,7 +4,7 @@
 //
 
 #include <stdio.h>
-
+// test3e1
 int main() {
     int arr[10]={arr[0]=0};
     char num;
