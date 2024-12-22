@@ -14,4 +14,7 @@ add_executable(Estudo_de_c ${SOURCES}
         Estudo_doido/modulo_7/Exercicio_3.c
         Estudo_doido/modulo_7/Exercicio_6.c
         Estudo_doido/modulo_7/Exercicio_1.c
-        Estudo_doido/modulo_7/Exercicio_7.c)
+        Estudo_doido/modulo_7/Exercicio_7.c
+        Estudo_doido/modulo_7/Exercicio_8.c
+        Estudo_doido/modulo_7/Exercicio_9.c
+        Estudo_doido/modulo_7/Exercicio_11.c)
