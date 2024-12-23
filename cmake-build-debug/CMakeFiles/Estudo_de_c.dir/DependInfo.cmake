@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/lucca/CLionProjects/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_1.c" "CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_1.c.obj" "gcc" "CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_1.c.obj.d"
   "C:/Users/lucca/CLionProjects/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_11.c" "CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_11.c.obj" "gcc" "CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_11.c.obj.d"
+  "C:/Users/lucca/CLionProjects/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_12.c" "CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_12.c.obj" "gcc" "CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_12.c.obj.d"
+  "C:/Users/lucca/CLionProjects/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_13.c" "CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_13.c.obj" "gcc" "CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_13.c.obj.d"
   "C:/Users/lucca/CLionProjects/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_2.c" "CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_2.c.obj" "gcc" "CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_2.c.obj.d"
   "C:/Users/lucca/CLionProjects/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_3.c" "CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_3.c.obj" "gcc" "CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_3.c.obj.d"
   "C:/Users/lucca/CLionProjects/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_6.c" "CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_6.c.obj" "gcc" "CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_6.c.obj.d"

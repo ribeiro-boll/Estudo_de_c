@@ -177,6 +177,54 @@ Estudo_doido/modulo_7/Exercicio_11.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estudo_de_c.dir\build.make CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_11.c.s
 .PHONY : Estudo_doido/modulo_7/Exercicio_11.c.s
 
+Estudo_doido/modulo_7/Exercicio_12.obj: Estudo_doido/modulo_7/Exercicio_12.c.obj
+.PHONY : Estudo_doido/modulo_7/Exercicio_12.obj
+
+# target to build an object file
+Estudo_doido/modulo_7/Exercicio_12.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estudo_de_c.dir\build.make CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_12.c.obj
+.PHONY : Estudo_doido/modulo_7/Exercicio_12.c.obj
+
+Estudo_doido/modulo_7/Exercicio_12.i: Estudo_doido/modulo_7/Exercicio_12.c.i
+.PHONY : Estudo_doido/modulo_7/Exercicio_12.i
+
+# target to preprocess a source file
+Estudo_doido/modulo_7/Exercicio_12.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estudo_de_c.dir\build.make CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_12.c.i
+.PHONY : Estudo_doido/modulo_7/Exercicio_12.c.i
+
+Estudo_doido/modulo_7/Exercicio_12.s: Estudo_doido/modulo_7/Exercicio_12.c.s
+.PHONY : Estudo_doido/modulo_7/Exercicio_12.s
+
+# target to generate assembly for a file
+Estudo_doido/modulo_7/Exercicio_12.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estudo_de_c.dir\build.make CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_12.c.s
+.PHONY : Estudo_doido/modulo_7/Exercicio_12.c.s
+
+Estudo_doido/modulo_7/Exercicio_13.obj: Estudo_doido/modulo_7/Exercicio_13.c.obj
+.PHONY : Estudo_doido/modulo_7/Exercicio_13.obj
+
+# target to build an object file
+Estudo_doido/modulo_7/Exercicio_13.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estudo_de_c.dir\build.make CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_13.c.obj
+.PHONY : Estudo_doido/modulo_7/Exercicio_13.c.obj
+
+Estudo_doido/modulo_7/Exercicio_13.i: Estudo_doido/modulo_7/Exercicio_13.c.i
+.PHONY : Estudo_doido/modulo_7/Exercicio_13.i
+
+# target to preprocess a source file
+Estudo_doido/modulo_7/Exercicio_13.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estudo_de_c.dir\build.make CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_13.c.i
+.PHONY : Estudo_doido/modulo_7/Exercicio_13.c.i
+
+Estudo_doido/modulo_7/Exercicio_13.s: Estudo_doido/modulo_7/Exercicio_13.c.s
+.PHONY : Estudo_doido/modulo_7/Exercicio_13.s
+
+# target to generate assembly for a file
+Estudo_doido/modulo_7/Exercicio_13.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estudo_de_c.dir\build.make CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_13.c.s
+.PHONY : Estudo_doido/modulo_7/Exercicio_13.c.s
+
 Estudo_doido/modulo_7/Exercicio_2.obj: Estudo_doido/modulo_7/Exercicio_2.c.obj
 .PHONY : Estudo_doido/modulo_7/Exercicio_2.obj
 
@@ -336,6 +384,12 @@ help:
 	@echo ... Estudo_doido/modulo_7/Exercicio_11.obj
 	@echo ... Estudo_doido/modulo_7/Exercicio_11.i
 	@echo ... Estudo_doido/modulo_7/Exercicio_11.s
+	@echo ... Estudo_doido/modulo_7/Exercicio_12.obj
+	@echo ... Estudo_doido/modulo_7/Exercicio_12.i
+	@echo ... Estudo_doido/modulo_7/Exercicio_12.s
+	@echo ... Estudo_doido/modulo_7/Exercicio_13.obj
+	@echo ... Estudo_doido/modulo_7/Exercicio_13.i
+	@echo ... Estudo_doido/modulo_7/Exercicio_13.s
 	@echo ... Estudo_doido/modulo_7/Exercicio_2.obj
 	@echo ... Estudo_doido/modulo_7/Exercicio_2.i
 	@echo ... Estudo_doido/modulo_7/Exercicio_2.s

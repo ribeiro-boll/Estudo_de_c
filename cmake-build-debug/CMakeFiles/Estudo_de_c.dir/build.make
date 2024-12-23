@@ -180,6 +180,34 @@ CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_11.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_11.c.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\lucca\CLionProjects\Estudo_de_c\Estudo_doido\modulo_7\Exercicio_11.c -o CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7\Exercicio_11.c.s
 
+CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_12.c.obj: CMakeFiles/Estudo_de_c.dir/flags.make
+CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_12.c.obj: C:/Users/lucca/CLionProjects/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_12.c
+CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_12.c.obj: CMakeFiles/Estudo_de_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\lucca\CLionProjects\Estudo_de_c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_12.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_12.c.obj -MF CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7\Exercicio_12.c.obj.d -o CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7\Exercicio_12.c.obj -c C:\Users\lucca\CLionProjects\Estudo_de_c\Estudo_doido\modulo_7\Exercicio_12.c
+
+CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_12.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_12.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\lucca\CLionProjects\Estudo_de_c\Estudo_doido\modulo_7\Exercicio_12.c > CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7\Exercicio_12.c.i
+
+CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_12.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_12.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\lucca\CLionProjects\Estudo_de_c\Estudo_doido\modulo_7\Exercicio_12.c -o CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7\Exercicio_12.c.s
+
+CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_13.c.obj: CMakeFiles/Estudo_de_c.dir/flags.make
+CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_13.c.obj: C:/Users/lucca/CLionProjects/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_13.c
+CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_13.c.obj: CMakeFiles/Estudo_de_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\lucca\CLionProjects\Estudo_de_c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_13.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_13.c.obj -MF CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7\Exercicio_13.c.obj.d -o CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7\Exercicio_13.c.obj -c C:\Users\lucca\CLionProjects\Estudo_de_c\Estudo_doido\modulo_7\Exercicio_13.c
+
+CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_13.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_13.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\lucca\CLionProjects\Estudo_de_c\Estudo_doido\modulo_7\Exercicio_13.c > CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7\Exercicio_13.c.i
+
+CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_13.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_13.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\lucca\CLionProjects\Estudo_de_c\Estudo_doido\modulo_7\Exercicio_13.c -o CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7\Exercicio_13.c.s
+
 # Object files for target Estudo_de_c
 Estudo_de_c_OBJECTS = \
 "CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_2.c.obj" \
@@ -189,7 +217,9 @@ Estudo_de_c_OBJECTS = \
 "CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_7.c.obj" \
 "CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_8.c.obj" \
 "CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_9.c.obj" \
-"CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_11.c.obj"
+"CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_11.c.obj" \
+"CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_12.c.obj" \
+"CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_13.c.obj"
 
 # External object files for target Estudo_de_c
 Estudo_de_c_EXTERNAL_OBJECTS =
@@ -202,11 +232,13 @@ Estudo_de_c.exe: CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_7.c.
 Estudo_de_c.exe: CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_8.c.obj
 Estudo_de_c.exe: CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_9.c.obj
 Estudo_de_c.exe: CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_11.c.obj
+Estudo_de_c.exe: CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_12.c.obj
+Estudo_de_c.exe: CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_13.c.obj
 Estudo_de_c.exe: CMakeFiles/Estudo_de_c.dir/build.make
 Estudo_de_c.exe: CMakeFiles/Estudo_de_c.dir/linkLibs.rsp
 Estudo_de_c.exe: CMakeFiles/Estudo_de_c.dir/objects1.rsp
 Estudo_de_c.exe: CMakeFiles/Estudo_de_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\lucca\CLionProjects\Estudo_de_c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable Estudo_de_c.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\lucca\CLionProjects\Estudo_de_c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable Estudo_de_c.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Estudo_de_c.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
