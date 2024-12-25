@@ -12,7 +12,7 @@ This repository is my study projects for learning and practicing the C programmi
 - Memory Management
 - Structures and Enums
 - File I/O
-- etc...
+- Etc...
 
 
 Happy coding!
