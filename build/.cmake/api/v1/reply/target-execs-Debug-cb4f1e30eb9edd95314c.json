@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Estudo_de_c.exe"
+			"path" : "execs.exe"
 		},
 		{
-			"path" : "Estudo_de_c.pdb"
+			"path" : "execs.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -65,7 +65,7 @@
 			]
 		}
 	],
-	"id" : "Estudo_de_c::@6890427a1f51a3e7e1df",
+	"id" : "execs::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -89,8 +89,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "Estudo_de_c",
-	"nameOnDisk" : "Estudo_de_c.exe",
+	"name" : "execs",
+	"nameOnDisk" : "execs.exe",
 	"paths" : 
 	{
 		"build" : ".",

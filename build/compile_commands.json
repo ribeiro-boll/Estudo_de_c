@@ -1,62 +1,62 @@
 [
 {
   "directory": "C:/Users/lucca/OneDrive/Documentos/Estudo_de_c/build",
-  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Estudo_de_c.dir\\Estudo_doido\\modulo_7\\Exercicio_2.c.obj -c C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_2.c",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\execs.dir\\Estudo_doido\\modulo_7\\Exercicio_2.c.obj -c C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_2.c",
   "file": "C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_2.c",
-  "output": "CMakeFiles\\Estudo_de_c.dir\\Estudo_doido\\modulo_7\\Exercicio_2.c.obj"
+  "output": "CMakeFiles\\execs.dir\\Estudo_doido\\modulo_7\\Exercicio_2.c.obj"
 },
 {
   "directory": "C:/Users/lucca/OneDrive/Documentos/Estudo_de_c/build",
-  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Estudo_de_c.dir\\Estudo_doido\\modulo_7\\Exercicio_3.c.obj -c C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_3.c",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\execs.dir\\Estudo_doido\\modulo_7\\Exercicio_3.c.obj -c C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_3.c",
   "file": "C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_3.c",
-  "output": "CMakeFiles\\Estudo_de_c.dir\\Estudo_doido\\modulo_7\\Exercicio_3.c.obj"
+  "output": "CMakeFiles\\execs.dir\\Estudo_doido\\modulo_7\\Exercicio_3.c.obj"
 },
 {
   "directory": "C:/Users/lucca/OneDrive/Documentos/Estudo_de_c/build",
-  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Estudo_de_c.dir\\Estudo_doido\\modulo_7\\Exercicio_6.c.obj -c C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_6.c",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\execs.dir\\Estudo_doido\\modulo_7\\Exercicio_6.c.obj -c C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_6.c",
   "file": "C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_6.c",
-  "output": "CMakeFiles\\Estudo_de_c.dir\\Estudo_doido\\modulo_7\\Exercicio_6.c.obj"
+  "output": "CMakeFiles\\execs.dir\\Estudo_doido\\modulo_7\\Exercicio_6.c.obj"
 },
 {
   "directory": "C:/Users/lucca/OneDrive/Documentos/Estudo_de_c/build",
-  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Estudo_de_c.dir\\Estudo_doido\\modulo_7\\Exercicio_1.c.obj -c C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_1.c",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\execs.dir\\Estudo_doido\\modulo_7\\Exercicio_1.c.obj -c C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_1.c",
   "file": "C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_1.c",
-  "output": "CMakeFiles\\Estudo_de_c.dir\\Estudo_doido\\modulo_7\\Exercicio_1.c.obj"
+  "output": "CMakeFiles\\execs.dir\\Estudo_doido\\modulo_7\\Exercicio_1.c.obj"
 },
 {
   "directory": "C:/Users/lucca/OneDrive/Documentos/Estudo_de_c/build",
-  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Estudo_de_c.dir\\Estudo_doido\\modulo_7\\Exercicio_7.c.obj -c C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_7.c",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\execs.dir\\Estudo_doido\\modulo_7\\Exercicio_7.c.obj -c C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_7.c",
   "file": "C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_7.c",
-  "output": "CMakeFiles\\Estudo_de_c.dir\\Estudo_doido\\modulo_7\\Exercicio_7.c.obj"
+  "output": "CMakeFiles\\execs.dir\\Estudo_doido\\modulo_7\\Exercicio_7.c.obj"
 },
 {
   "directory": "C:/Users/lucca/OneDrive/Documentos/Estudo_de_c/build",
-  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Estudo_de_c.dir\\Estudo_doido\\modulo_7\\Exercicio_8.c.obj -c C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_8.c",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\execs.dir\\Estudo_doido\\modulo_7\\Exercicio_8.c.obj -c C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_8.c",
   "file": "C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_8.c",
-  "output": "CMakeFiles\\Estudo_de_c.dir\\Estudo_doido\\modulo_7\\Exercicio_8.c.obj"
+  "output": "CMakeFiles\\execs.dir\\Estudo_doido\\modulo_7\\Exercicio_8.c.obj"
 },
 {
   "directory": "C:/Users/lucca/OneDrive/Documentos/Estudo_de_c/build",
-  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Estudo_de_c.dir\\Estudo_doido\\modulo_7\\Exercicio_9.c.obj -c C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_9.c",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\execs.dir\\Estudo_doido\\modulo_7\\Exercicio_9.c.obj -c C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_9.c",
   "file": "C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_9.c",
-  "output": "CMakeFiles\\Estudo_de_c.dir\\Estudo_doido\\modulo_7\\Exercicio_9.c.obj"
+  "output": "CMakeFiles\\execs.dir\\Estudo_doido\\modulo_7\\Exercicio_9.c.obj"
 },
 {
   "directory": "C:/Users/lucca/OneDrive/Documentos/Estudo_de_c/build",
-  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Estudo_de_c.dir\\Estudo_doido\\modulo_7\\Exercicio_11.c.obj -c C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_11.c",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\execs.dir\\Estudo_doido\\modulo_7\\Exercicio_11.c.obj -c C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_11.c",
   "file": "C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_11.c",
-  "output": "CMakeFiles\\Estudo_de_c.dir\\Estudo_doido\\modulo_7\\Exercicio_11.c.obj"
+  "output": "CMakeFiles\\execs.dir\\Estudo_doido\\modulo_7\\Exercicio_11.c.obj"
 },
 {
   "directory": "C:/Users/lucca/OneDrive/Documentos/Estudo_de_c/build",
-  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Estudo_de_c.dir\\Estudo_doido\\modulo_7\\Exercicio_12.c.obj -c C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_12.c",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\execs.dir\\Estudo_doido\\modulo_7\\Exercicio_12.c.obj -c C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_12.c",
   "file": "C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_12.c",
-  "output": "CMakeFiles\\Estudo_de_c.dir\\Estudo_doido\\modulo_7\\Exercicio_12.c.obj"
+  "output": "CMakeFiles\\execs.dir\\Estudo_doido\\modulo_7\\Exercicio_12.c.obj"
 },
 {
   "directory": "C:/Users/lucca/OneDrive/Documentos/Estudo_de_c/build",
-  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\Estudo_de_c.dir\\Estudo_doido\\modulo_7\\Exercicio_13.c.obj -c C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_13.c",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\execs.dir\\Estudo_doido\\modulo_7\\Exercicio_13.c.obj -c C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_13.c",
   "file": "C:\\Users\\lucca\\OneDrive\\Documentos\\Estudo_de_c\\Estudo_doido\\modulo_7\\Exercicio_13.c",
-  "output": "CMakeFiles\\Estudo_de_c.dir\\Estudo_doido\\modulo_7\\Exercicio_13.c.obj"
+  "output": "CMakeFiles\\execs.dir\\Estudo_doido\\modulo_7\\Exercicio_13.c.obj"
 }
 ]

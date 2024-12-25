@@ -41,113 +41,113 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/lucca/OneDrive/Documentos/Estudo_de_c/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target Estudo_de_c
+# Object build statements for EXECUTABLE target execs
 
 
 #############################################
-# Order-only phony target for Estudo_de_c
+# Order-only phony target for execs
 
-build cmake_object_order_depends_target_Estudo_de_c: phony || .
+build cmake_object_order_depends_target_execs: phony || .
 
-build CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_2.c.obj: C_COMPILER__Estudo_de_c_unscanned_Debug C$:/Users/lucca/OneDrive/Documentos/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_2.c || cmake_object_order_depends_target_Estudo_de_c
-  DEP_FILE = CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7\Exercicio_2.c.obj.d
+build CMakeFiles/execs.dir/Estudo_doido/modulo_7/Exercicio_2.c.obj: C_COMPILER__execs_unscanned_Debug C$:/Users/lucca/OneDrive/Documentos/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_2.c || cmake_object_order_depends_target_execs
+  DEP_FILE = CMakeFiles\execs.dir\Estudo_doido\modulo_7\Exercicio_2.c.obj.d
   FLAGS = -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  OBJECT_DIR = CMakeFiles\Estudo_de_c.dir
-  OBJECT_FILE_DIR = CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7
-  TARGET_COMPILE_PDB = CMakeFiles\Estudo_de_c.dir\
-  TARGET_PDB = Estudo_de_c.pdb
+  OBJECT_DIR = CMakeFiles\execs.dir
+  OBJECT_FILE_DIR = CMakeFiles\execs.dir\Estudo_doido\modulo_7
+  TARGET_COMPILE_PDB = CMakeFiles\execs.dir\
+  TARGET_PDB = execs.pdb
 
-build CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_3.c.obj: C_COMPILER__Estudo_de_c_unscanned_Debug C$:/Users/lucca/OneDrive/Documentos/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_3.c || cmake_object_order_depends_target_Estudo_de_c
-  DEP_FILE = CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7\Exercicio_3.c.obj.d
+build CMakeFiles/execs.dir/Estudo_doido/modulo_7/Exercicio_3.c.obj: C_COMPILER__execs_unscanned_Debug C$:/Users/lucca/OneDrive/Documentos/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_3.c || cmake_object_order_depends_target_execs
+  DEP_FILE = CMakeFiles\execs.dir\Estudo_doido\modulo_7\Exercicio_3.c.obj.d
   FLAGS = -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  OBJECT_DIR = CMakeFiles\Estudo_de_c.dir
-  OBJECT_FILE_DIR = CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7
-  TARGET_COMPILE_PDB = CMakeFiles\Estudo_de_c.dir\
-  TARGET_PDB = Estudo_de_c.pdb
+  OBJECT_DIR = CMakeFiles\execs.dir
+  OBJECT_FILE_DIR = CMakeFiles\execs.dir\Estudo_doido\modulo_7
+  TARGET_COMPILE_PDB = CMakeFiles\execs.dir\
+  TARGET_PDB = execs.pdb
 
-build CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_6.c.obj: C_COMPILER__Estudo_de_c_unscanned_Debug C$:/Users/lucca/OneDrive/Documentos/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_6.c || cmake_object_order_depends_target_Estudo_de_c
-  DEP_FILE = CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7\Exercicio_6.c.obj.d
+build CMakeFiles/execs.dir/Estudo_doido/modulo_7/Exercicio_6.c.obj: C_COMPILER__execs_unscanned_Debug C$:/Users/lucca/OneDrive/Documentos/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_6.c || cmake_object_order_depends_target_execs
+  DEP_FILE = CMakeFiles\execs.dir\Estudo_doido\modulo_7\Exercicio_6.c.obj.d
   FLAGS = -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  OBJECT_DIR = CMakeFiles\Estudo_de_c.dir
-  OBJECT_FILE_DIR = CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7
-  TARGET_COMPILE_PDB = CMakeFiles\Estudo_de_c.dir\
-  TARGET_PDB = Estudo_de_c.pdb
+  OBJECT_DIR = CMakeFiles\execs.dir
+  OBJECT_FILE_DIR = CMakeFiles\execs.dir\Estudo_doido\modulo_7
+  TARGET_COMPILE_PDB = CMakeFiles\execs.dir\
+  TARGET_PDB = execs.pdb
 
-build CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_1.c.obj: C_COMPILER__Estudo_de_c_unscanned_Debug C$:/Users/lucca/OneDrive/Documentos/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_1.c || cmake_object_order_depends_target_Estudo_de_c
-  DEP_FILE = CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7\Exercicio_1.c.obj.d
+build CMakeFiles/execs.dir/Estudo_doido/modulo_7/Exercicio_1.c.obj: C_COMPILER__execs_unscanned_Debug C$:/Users/lucca/OneDrive/Documentos/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_1.c || cmake_object_order_depends_target_execs
+  DEP_FILE = CMakeFiles\execs.dir\Estudo_doido\modulo_7\Exercicio_1.c.obj.d
   FLAGS = -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  OBJECT_DIR = CMakeFiles\Estudo_de_c.dir
-  OBJECT_FILE_DIR = CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7
-  TARGET_COMPILE_PDB = CMakeFiles\Estudo_de_c.dir\
-  TARGET_PDB = Estudo_de_c.pdb
+  OBJECT_DIR = CMakeFiles\execs.dir
+  OBJECT_FILE_DIR = CMakeFiles\execs.dir\Estudo_doido\modulo_7
+  TARGET_COMPILE_PDB = CMakeFiles\execs.dir\
+  TARGET_PDB = execs.pdb
 
-build CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_7.c.obj: C_COMPILER__Estudo_de_c_unscanned_Debug C$:/Users/lucca/OneDrive/Documentos/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_7.c || cmake_object_order_depends_target_Estudo_de_c
-  DEP_FILE = CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7\Exercicio_7.c.obj.d
+build CMakeFiles/execs.dir/Estudo_doido/modulo_7/Exercicio_7.c.obj: C_COMPILER__execs_unscanned_Debug C$:/Users/lucca/OneDrive/Documentos/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_7.c || cmake_object_order_depends_target_execs
+  DEP_FILE = CMakeFiles\execs.dir\Estudo_doido\modulo_7\Exercicio_7.c.obj.d
   FLAGS = -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  OBJECT_DIR = CMakeFiles\Estudo_de_c.dir
-  OBJECT_FILE_DIR = CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7
-  TARGET_COMPILE_PDB = CMakeFiles\Estudo_de_c.dir\
-  TARGET_PDB = Estudo_de_c.pdb
+  OBJECT_DIR = CMakeFiles\execs.dir
+  OBJECT_FILE_DIR = CMakeFiles\execs.dir\Estudo_doido\modulo_7
+  TARGET_COMPILE_PDB = CMakeFiles\execs.dir\
+  TARGET_PDB = execs.pdb
 
-build CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_8.c.obj: C_COMPILER__Estudo_de_c_unscanned_Debug C$:/Users/lucca/OneDrive/Documentos/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_8.c || cmake_object_order_depends_target_Estudo_de_c
-  DEP_FILE = CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7\Exercicio_8.c.obj.d
+build CMakeFiles/execs.dir/Estudo_doido/modulo_7/Exercicio_8.c.obj: C_COMPILER__execs_unscanned_Debug C$:/Users/lucca/OneDrive/Documentos/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_8.c || cmake_object_order_depends_target_execs
+  DEP_FILE = CMakeFiles\execs.dir\Estudo_doido\modulo_7\Exercicio_8.c.obj.d
   FLAGS = -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  OBJECT_DIR = CMakeFiles\Estudo_de_c.dir
-  OBJECT_FILE_DIR = CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7
-  TARGET_COMPILE_PDB = CMakeFiles\Estudo_de_c.dir\
-  TARGET_PDB = Estudo_de_c.pdb
+  OBJECT_DIR = CMakeFiles\execs.dir
+  OBJECT_FILE_DIR = CMakeFiles\execs.dir\Estudo_doido\modulo_7
+  TARGET_COMPILE_PDB = CMakeFiles\execs.dir\
+  TARGET_PDB = execs.pdb
 
-build CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_9.c.obj: C_COMPILER__Estudo_de_c_unscanned_Debug C$:/Users/lucca/OneDrive/Documentos/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_9.c || cmake_object_order_depends_target_Estudo_de_c
-  DEP_FILE = CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7\Exercicio_9.c.obj.d
+build CMakeFiles/execs.dir/Estudo_doido/modulo_7/Exercicio_9.c.obj: C_COMPILER__execs_unscanned_Debug C$:/Users/lucca/OneDrive/Documentos/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_9.c || cmake_object_order_depends_target_execs
+  DEP_FILE = CMakeFiles\execs.dir\Estudo_doido\modulo_7\Exercicio_9.c.obj.d
   FLAGS = -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  OBJECT_DIR = CMakeFiles\Estudo_de_c.dir
-  OBJECT_FILE_DIR = CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7
-  TARGET_COMPILE_PDB = CMakeFiles\Estudo_de_c.dir\
-  TARGET_PDB = Estudo_de_c.pdb
+  OBJECT_DIR = CMakeFiles\execs.dir
+  OBJECT_FILE_DIR = CMakeFiles\execs.dir\Estudo_doido\modulo_7
+  TARGET_COMPILE_PDB = CMakeFiles\execs.dir\
+  TARGET_PDB = execs.pdb
 
-build CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_11.c.obj: C_COMPILER__Estudo_de_c_unscanned_Debug C$:/Users/lucca/OneDrive/Documentos/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_11.c || cmake_object_order_depends_target_Estudo_de_c
-  DEP_FILE = CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7\Exercicio_11.c.obj.d
+build CMakeFiles/execs.dir/Estudo_doido/modulo_7/Exercicio_11.c.obj: C_COMPILER__execs_unscanned_Debug C$:/Users/lucca/OneDrive/Documentos/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_11.c || cmake_object_order_depends_target_execs
+  DEP_FILE = CMakeFiles\execs.dir\Estudo_doido\modulo_7\Exercicio_11.c.obj.d
   FLAGS = -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  OBJECT_DIR = CMakeFiles\Estudo_de_c.dir
-  OBJECT_FILE_DIR = CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7
-  TARGET_COMPILE_PDB = CMakeFiles\Estudo_de_c.dir\
-  TARGET_PDB = Estudo_de_c.pdb
+  OBJECT_DIR = CMakeFiles\execs.dir
+  OBJECT_FILE_DIR = CMakeFiles\execs.dir\Estudo_doido\modulo_7
+  TARGET_COMPILE_PDB = CMakeFiles\execs.dir\
+  TARGET_PDB = execs.pdb
 
-build CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_12.c.obj: C_COMPILER__Estudo_de_c_unscanned_Debug C$:/Users/lucca/OneDrive/Documentos/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_12.c || cmake_object_order_depends_target_Estudo_de_c
-  DEP_FILE = CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7\Exercicio_12.c.obj.d
+build CMakeFiles/execs.dir/Estudo_doido/modulo_7/Exercicio_12.c.obj: C_COMPILER__execs_unscanned_Debug C$:/Users/lucca/OneDrive/Documentos/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_12.c || cmake_object_order_depends_target_execs
+  DEP_FILE = CMakeFiles\execs.dir\Estudo_doido\modulo_7\Exercicio_12.c.obj.d
   FLAGS = -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  OBJECT_DIR = CMakeFiles\Estudo_de_c.dir
-  OBJECT_FILE_DIR = CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7
-  TARGET_COMPILE_PDB = CMakeFiles\Estudo_de_c.dir\
-  TARGET_PDB = Estudo_de_c.pdb
+  OBJECT_DIR = CMakeFiles\execs.dir
+  OBJECT_FILE_DIR = CMakeFiles\execs.dir\Estudo_doido\modulo_7
+  TARGET_COMPILE_PDB = CMakeFiles\execs.dir\
+  TARGET_PDB = execs.pdb
 
-build CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_13.c.obj: C_COMPILER__Estudo_de_c_unscanned_Debug C$:/Users/lucca/OneDrive/Documentos/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_13.c || cmake_object_order_depends_target_Estudo_de_c
-  DEP_FILE = CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7\Exercicio_13.c.obj.d
+build CMakeFiles/execs.dir/Estudo_doido/modulo_7/Exercicio_13.c.obj: C_COMPILER__execs_unscanned_Debug C$:/Users/lucca/OneDrive/Documentos/Estudo_de_c/Estudo_doido/modulo_7/Exercicio_13.c || cmake_object_order_depends_target_execs
+  DEP_FILE = CMakeFiles\execs.dir\Estudo_doido\modulo_7\Exercicio_13.c.obj.d
   FLAGS = -O0 -std=gnu11 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
-  OBJECT_DIR = CMakeFiles\Estudo_de_c.dir
-  OBJECT_FILE_DIR = CMakeFiles\Estudo_de_c.dir\Estudo_doido\modulo_7
-  TARGET_COMPILE_PDB = CMakeFiles\Estudo_de_c.dir\
-  TARGET_PDB = Estudo_de_c.pdb
+  OBJECT_DIR = CMakeFiles\execs.dir
+  OBJECT_FILE_DIR = CMakeFiles\execs.dir\Estudo_doido\modulo_7
+  TARGET_COMPILE_PDB = CMakeFiles\execs.dir\
+  TARGET_PDB = execs.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Estudo_de_c
+# Link build statements for EXECUTABLE target execs
 
 
 #############################################
-# Link the executable Estudo_de_c.exe
+# Link the executable execs.exe
 
-build Estudo_de_c.exe: C_EXECUTABLE_LINKER__Estudo_de_c_Debug CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_2.c.obj CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_3.c.obj CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_6.c.obj CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_1.c.obj CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_7.c.obj CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_8.c.obj CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_9.c.obj CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_11.c.obj CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_12.c.obj CMakeFiles/Estudo_de_c.dir/Estudo_doido/modulo_7/Exercicio_13.c.obj
+build execs.exe: C_EXECUTABLE_LINKER__execs_Debug CMakeFiles/execs.dir/Estudo_doido/modulo_7/Exercicio_2.c.obj CMakeFiles/execs.dir/Estudo_doido/modulo_7/Exercicio_3.c.obj CMakeFiles/execs.dir/Estudo_doido/modulo_7/Exercicio_6.c.obj CMakeFiles/execs.dir/Estudo_doido/modulo_7/Exercicio_1.c.obj CMakeFiles/execs.dir/Estudo_doido/modulo_7/Exercicio_7.c.obj CMakeFiles/execs.dir/Estudo_doido/modulo_7/Exercicio_8.c.obj CMakeFiles/execs.dir/Estudo_doido/modulo_7/Exercicio_9.c.obj CMakeFiles/execs.dir/Estudo_doido/modulo_7/Exercicio_11.c.obj CMakeFiles/execs.dir/Estudo_doido/modulo_7/Exercicio_12.c.obj CMakeFiles/execs.dir/Estudo_doido/modulo_7/Exercicio_13.c.obj
   FLAGS = -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
   LINK_FLAGS = -Xlinker /subsystem:console  -fuse-ld=lld-link
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames
-  OBJECT_DIR = CMakeFiles\Estudo_de_c.dir
+  OBJECT_DIR = CMakeFiles\execs.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Estudo_de_c.dir\
-  TARGET_FILE = Estudo_de_c.exe
-  TARGET_IMPLIB = Estudo_de_c.lib
-  TARGET_PDB = Estudo_de_c.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\execs.dir\
+  TARGET_FILE = execs.exe
+  TARGET_IMPLIB = execs.lib
+  TARGET_PDB = execs.pdb
 
 
 #############################################
@@ -176,7 +176,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Estudo_de_c: phony Estudo_de_c.exe
+build execs: phony execs.exe
 
 # =============================================================================
 # Folder targets.
@@ -186,7 +186,7 @@ build Estudo_de_c: phony Estudo_de_c.exe
 #############################################
 # Folder: C:/Users/lucca/OneDrive/Documentos/Estudo_de_c/build
 
-build all: phony Estudo_de_c.exe
+build all: phony execs.exe
 
 # =============================================================================
 # Built-in targets

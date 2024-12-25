@@ -9,7 +9,7 @@ file(GLOB
         "*.h" "*.cpp"
 )
 
-add_executable(Estudo_de_c ${SOURCES}
+add_executable(execs ${SOURCES}
         Estudo_doido/modulo_7/Exercicio_2.c
         Estudo_doido/modulo_7/Exercicio_3.c
         Estudo_doido/modulo_7/Exercicio_6.c
