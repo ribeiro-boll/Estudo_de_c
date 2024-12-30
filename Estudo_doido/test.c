@@ -7,7 +7,7 @@
 //Copyright (c) 2024 Your Company
 //
 
-#include <stdio.h>
+//#include <stdio.h>
 
 // #define DAYUBE 3
 // #define PEDRO_JEGGY 24
@@ -40,3 +40,39 @@
 //     printf("\n");
 //     return 0;
 //
+// void sort(int* arr,int len){
+//     if (len==0){
+//         return;
+//     }
+//     else{
+//         int max = -2100000;
+//         int index;    
+//         for(int i =0;i<len;i++){
+//             if (arr[i]>=max){
+//                 max = arr[i];
+//                 index = i;
+//             }
+//         }
+//         int temp = arr[len-1];
+//         arr[len-1] = max;
+//         arr[index] = temp;
+//         sort(arr,len-1);
+//     }
+// }
+
+// int main(){
+//     int arr[10];
+//     printf("Escreva a sequencia de numeros:\n");
+//     for (int i = 0;i<10;i++){
+//         scanf("%d",&arr[i]);
+//     }
+//     for (int i = 0;i<10;i++){
+//         printf("%d\t",arr[i]);
+//     }
+//     printf("\n");
+
+//     sort(arr,10);
+//     for (int i = 0;i<10;i++){
+//         printf("%d\t",arr[i]);
+//     }
+// }

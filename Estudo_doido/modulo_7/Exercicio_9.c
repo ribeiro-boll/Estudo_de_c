@@ -63,6 +63,7 @@ int main() {
         }
 
         if (cond) {
+            system("cls");
             printf("\n");
             printf("\n");
             for (int i = 0;i<10;i++) {
@@ -74,6 +75,7 @@ int main() {
             printf("\n");
             printf("\n");
         }
+        
         temporizador++;
     }
 }
