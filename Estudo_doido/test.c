@@ -76,3 +76,15 @@
 //         printf("%d\t",arr[i]);
 //     }
 // }
+
+#include <stdio.h>
+
+void teste(void){
+    static int teste = 9;
+    return;
+}
+
+int main(){
+    teste();
+    printf("%d",teste);
+}
