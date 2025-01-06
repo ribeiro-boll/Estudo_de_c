@@ -1,6 +1,6 @@
 # Personal C Language Study Repository
 
-This repository is my study projects for learning and practicing the C programming language, using the book, "C Programming: A Modern Approach". It includes code examples, exercises, and notes to improve understanding of core concepts.
+This repository contains all of my study projects for learning and practicing the C programming language, using the book, "C Programming: A Modern Approach". It includes code examples and exercises to improve understanding of core concepts.
 
 ## Topics Covered
 
@@ -15,5 +15,5 @@ This repository is my study projects for learning and practicing the C programmi
 - Etc...
 
 
-Happy coding!
+Thx for visiting my "Study notebook"!
 
