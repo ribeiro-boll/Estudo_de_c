@@ -6,7 +6,6 @@
 //
 //Copyright (c) 2024 Your Company
 //
-
 #include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
