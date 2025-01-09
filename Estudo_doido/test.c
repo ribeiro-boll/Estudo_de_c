@@ -77,14 +77,43 @@
 //     }
 // }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-void teste(void){
-    static int teste = 9;
-    return;
-}
+// void teste(void){
+//     static int teste = 9;
+//     return;
+// }
 
-int main(){
-    teste();
-    printf("%d",teste);
-}
+// int main(){
+//     teste();
+//     printf("%d",teste);
+// }
+
+
+// teste de ponteiros:
+// #include <stdio.h>
+// void calc_area(int* b,int* h){
+//     printf("%d", *b * *h);
+// }
+
+// int getnum_dec(){
+//     int temp2 = 0,ch;
+//     while ((ch = getchar())!=10){
+//         temp2 = temp2*10 + (ch - '0');
+//     }
+//     return temp2;
+// }
+
+// void assign(int *address){
+//     *address = getnum_dec();
+//     return;
+// }
+
+// int main(){
+//     int val1,val2;
+    
+//     assign(&val1);
+//     assign(&val2);
+//     printf("%d   %d\n",val1,val2);
+//     calc_area(&val1, &val2);
+// }

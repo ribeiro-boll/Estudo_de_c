@@ -25,7 +25,7 @@ void push(int ch){
     }
 }
 
-int calc(int ch){
+void calc(int ch){
     switch (ch) {
         case '+':
             if (is_empty()){
@@ -77,7 +77,7 @@ int main(){
                 case ' ': 
                         if (last_digit == '+' || last_digit == '-' || last_digit == '*' || last_digit == '/'){
                             break;
-                        }   
+                        }
                         else{
                             push(decimal);decimal = 0;
                             break;
