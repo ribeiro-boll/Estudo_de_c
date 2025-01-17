@@ -117,3 +117,10 @@
 //     printf("%d   %d\n",val1,val2);
 //     calc_area(&val1, &val2);
 // }
+#include <stdio.h>
+int main(){
+    int neg;
+    int *p = &neg;
+    *p = 3;
+    printf("%d",neg);
+}
