@@ -1,95 +1,29 @@
-
+//
+//Filename: c:\Users\lucca\OneDrive\Documentos\Estudo_de_c\Estudo_doido\modulo_8\Exercicio_6.c
+//Path: c:\Users\lucca\OneDrive\Documentos\Estudo_de_c\Estudo_doido\modulo_8
+//Created Date: Sunday, December 29th 2024, 11:43:39 pm
+//Author: lucca
+//
+//Copyright (c) 2024 Your Company
+//
 #include <stdio.h>
-#include <stdbool.h>
-#define lenght 100
-
-int curr=0,nums[lenght];
 
 
-
-bool is_empty(){
-    return (curr==1);
+double power(double n, int x){
+    double retorno = 1.0;
+    for (int i =0;i<=x;i++){
+        retorno*=n;
+    }
+    return retorno; 
 }
 
-bool is_full(){
-    return (curr==lenght);
-}
-
-void push(int ch){
-    if (is_full()){
-        printf("data overflow!");
-    }
-    else{
-        nums[curr] = ch;
-        curr++;
-    }
-}
-
-void calc(int ch){
-    switch (ch) {
-        case '+':
-            if (is_empty()){
-                printf("not enough numbers\n"); break;
-            }
-            else{
-                nums[curr-2] = nums[curr-2] + nums[curr-1];curr--;break;
-            }
-
-        case '-':
-            if (is_empty()){
-                printf("not enough numbers\n"); break;
-            }
-            else{
-                nums[curr-2] = nums[curr-2] - nums[curr-1];curr--;break;
-            }
-
-        case '*':
-            if (is_empty()){
-                printf("not enough numbers\n"); break;
-            }
-            else{
-                nums[curr-2] = nums[curr-2] * nums[curr-1];curr--;break;
-            }
-
-        case '/':
-            if (is_empty()){
-                printf("not enough numbers\n"); break;
-            }
-            else{
-                nums[curr-2] = nums[curr-2] / nums[curr-1];curr--;break;
-            }
-    }
+double calc_polinomial(double x){
+    return ((3*power(x,5))+(2*power(x,4))-(5*power(x,3)) - power(x,2) + (7 * x) -6);
 }
 
 int main(){
-    int ch,decimal = 0,cond=1,last_digit;
-    printf("Enter the calculation: %c",32);
-    while ((ch = getchar())!=10 && cond){
-        printf("curr: %d  ||  nums ultimo:%d || num atual : %d\n",curr,nums[0],nums[curr]);
-        if (ch == '+' || ch == '-' || ch == '*' || ch == '/'){
-            calc(ch);
-        }
-        else{
-            switch (ch) {
-                case '=':
-                    printf("\nnumber: %d",nums[0]);
-                    break;
-                case ' ': 
-                        if (last_digit == '+' || last_digit == '-' || last_digit == '*' || last_digit == '/'){
-                            break;
-                        }
-                        else{
-                            push(decimal);decimal = 0;
-                            break;
-                        }
-                case '0'+0:case '0'+1:case '0'+2:case '0'+3:
-                case '0'+4:case '0'+5:case '0'+6:case '0'+7:
-                case '0'+8:case '0'+9: 
-                    decimal = decimal*10 + (ch - '0');break;
-                default:printf("operacao invalida!");cond = 0;break;
-            }
-        }
-    last_digit = ch;
-    }
-    return 0;
+    double x;
+    printf("Enter the number of x: %c",32);
+    scanf("%lf",&x);
+    printf("%.2lf",calc_polinomial(x));
 }

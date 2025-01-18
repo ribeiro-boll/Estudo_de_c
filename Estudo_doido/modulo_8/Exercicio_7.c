@@ -1,32 +1,36 @@
 //
-//Filename: c:\Users\lucca\OneDrive\Documentos\Estudo_de_c\Estudo_doido\modulo_8\Exercicio_7.c
-//Path: c:\Users\lucca\OneDrive\Documentos\Estudo_de_c\Estudo_doido\modulo_8
-//Created Date: Monday, December 30th 2024, 2:55:22 pm
-//Author: lucca
+// Created by lucca on 21/12/2024.
 //
-//Copyright (c) 2024 Your Company
-//
-
 #include <stdio.h>
 
-double powe(double x,int n){
-    if (n==0){
-        return 1;
+int main(){
+    int matrix[5][5],temp;
+    for (int i =0; i<5; i++) {
+        printf("enter row %d: ",i+1);
+        scanf("%d %d %d %d %d",&matrix[i][0],&matrix[i][1],&matrix[i][2],&matrix[i][3],&matrix[i][4]);
     }
-    else{
-        if (n%2==0){
-            return powe(x,n/2)*powe(x,n/2);
+    printf("Row totals:");
+    for (int i=0;i<5;i++) {
+        temp = 0;
+        for (int j=0;j<5;j++) {
+            temp += matrix[i][j];
         }
-        else{
-            return x * powe(x,n-1);
+        printf("%d  ",temp);
+    }
+    printf("\nColumn totals: ");
+    for (int i=0;i<5;i++) {
+        temp = 0;
+        for (int j=0;j<5;j++) {
+            temp += matrix[j][i];
         }
+        printf("%d  ",temp);
     }
 }
 
-int main(){
-    double x;
-    int n;
-    printf("Enter the desired number to be elevated, and the power itself\nin the format: x^n: %c",32);
-    scanf("%lf^%d",&x,&n);
-    printf("%.2lf^%d is equal to: %.2lf",x,n,powe(x,n));
-}
+/*
+enter row 1: 8 3 9 0 10
+enter row 2: 3 5 17 1 1
+enter row 3: 2 8 6 23 1
+enter row 4: 15 7 3 2 9
+enter row 5: 6 14 2 6 0
+*/

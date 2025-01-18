@@ -1,70 +1,42 @@
 //
-//Filename: c:\Users\lucca\OneDrive\Documentos\Estudo_de_c\Estudo_doido\modulo_8\Exercicio_8.c
-//Path: c:\Users\lucca\OneDrive\Documentos\Estudo_de_c\Estudo_doido\modulo_8
-//Created Date: Monday, December 30th 2024, 3:16:26 pm
-//Author: lucca
+// Created by lucca on 22/12/2024.
 //
-//Copyright (c) 2024 Your Company
-//
-#include <ctype.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-#include <stdbool.h>
-
-int roll_dice(){
-    return rand()%6+1+rand()%6+1;
-}
-
-bool play_game(){
-    int first_run=1,point;
-    while (true){
-        int run = roll_dice();
-        printf("You rolled: %d\n",run);
-        if (first_run){
-            if (run == 7 || run == 11){
-                printf("You win!  :)\n\n");
-                return true;
-            }
-            else if(run == 2 || run == 12){
-                printf("You lose!  :(\n\n");
-                return false;
-            }
-            else{
-                point = run;
-                printf("Your point is %d\n",point);
-                first_run = 0;
-                continue;
-            }
-        }
-        else if(7 == run){
-            printf("You lose!  :(\n\n");
-                return false;
-        }
-        else if(point == run){
-            printf("You win!  :)\n\n");
-            return true;
-        }
+#include  <stdio.h>
+int main() {
+    int matrix[5][5];
+    for (int i =0; i<5; i++) {
+        printf("\nEnter student %d: ",i+1);
+        scanf("%d %d %d %d %d",&matrix[i][0],&matrix[i][1],&matrix[i][2],&matrix[i][3],&matrix[i][4]);
     }
+    printf("\n\nAverages:\n");
+    for (int i =0;i<5;i++) {
+        int temp_hi = 0,temp_low=32000;
+        float media = 0.0;
+        for (int j=0;j<5;j++) {
+            if (matrix[i][j] > temp_hi) {
+                temp_hi = matrix[i][j];
+            }
+            if (matrix[i][j] < temp_low) {
+                temp_low = matrix[i][j];
+            }
+            media += matrix[i][j];
+        }
+        printf("\n%d results are:\naverage: %f\nhigh score: %d\nlow score: %d\n",i+1,media/5.0,temp_hi,temp_low);
+    }
+
 }
 
-int main(){
-    int wins=0,loses=0,cond='Y';
-    char c;
-    srand(time(NULL));
-    while (cond == 'Y'){
-        bool result = play_game();
-        if (result){
-            wins++;
-        }
-        else{
-            loses++;
-        }
-        printf("\n");
-        printf("Play again? (y/n)?");
-        cond = getchar();
-        cond = toupper(cond);
-        scanf("%c",&c);
-    }
-    printf("Your wins: %d\nYour loses: %d",wins,loses);
-}
+/*
+
+Enter student 1:4 4 5 6 7
+
+Enter student 2:9 7 6 8 4
+
+Enter student 3:12 5 6 8 0
+
+Enter student 4:5 5 5 5 5
+
+Enter student 5:7 7 2 6 8
+
+
+*/

@@ -1,105 +1,73 @@
+//
+//Filename: c:\Users\lucca\OneDrive\Documentos\Estudo_de_c\Estudo_doido\modulo_8\Exercicio_1.c
+//Path: c:\Users\lucca\OneDrive\Documentos\Estudo_de_c\Estudo_doido\modulo_8
+//Created Date: Thursday, December 26th 2024, 7:29:04 am
+//Author: lucca
+//
+//Copyright (c) 2024 Your Company
+//
+
+
+
+/*
+fiz algumas mudanças no codigo, para gerar um array randomico de lenght escolhido pelo "define"
+*/
+
 
 #include <stdio.h>
-#include <stdbool.h>
-#define LENGHT 100
+#include <stdlib.h>
+#include <time.h>
 
 
-int arr[LENGHT];
-int top=0;
+#define lenght 15
 
 
-bool is_full(void){
-    return top == LENGHT;
-}
-
-bool is_empty(void){
-    return top == LENGHT;
-}
-
-void stack_underflow(void){
-    printf("empty array!");
-}
-
-void stack_overflow(void){
-    printf("array is full!");
-}
-
-void make_empty(void){
-    top = 0;
-}
-
-void push(int ch){
-    if (is_full()){
-        stack_overflow();
+void sort(int* arr,int len,int true_lenght){
+    for (int i=0;i<true_lenght;i++){
+        printf("%d\t",arr[i]);
+    }
+    printf("\n");
+    if (len == 0){
+        return;
     }
     else{
-        arr[top] = ch;
-        top++;
-    }
-}
-
-
-int pop(void){
-    if (is_empty()) {
-        stack_underflow();
-        return ' ';
-    }
-    else{
-        top--;
-        int temp = arr[top];
-        arr[top] = 0;
-        
-        return temp;
-    }
-}
-
-
-
-
-int main(){
-    int num,cond=1;
-    printf("Enter parentheses and/or braces:%c",32);
-    while ((num = getchar())!=10 && cond){
-        switch (num) {
-            case 40: push(num);break;
-            case 91: push(num);break;
-            case 123: push(num);break;
-
-            case 41:
-                if (pop() == 40){
-                    break;
-                }
-
-                else {
-                    cond = 0;
-                    break;
-                }
-            case 93:
-                if (pop() == 91){
-                    break;
-                }
-
-                else {
-                    cond = 0;
-                    break;
-                }
-            case 125:
-                if (pop() == 123){
-                    break;
-                }
-
-                else {
-                    cond = 0;
-                    break;
-                }
-
-            default: cond = 0;break;
+        int index,temp;
+        int max_nmbr = -2147483647;
+        for (int i=0;i<len;i++){
+            
+            // seleciona o maior numero do array ate len-1 atual, e armazena seu index e seu valor.
+            
+            if (arr[i] >= max_nmbr){
+                max_nmbr = arr[i];
+                index = i;
+            }
         }
+        
+        // substitui o ultimo valor pelo maior valor encontrado e muda o ultimo valor antigo
+        // para a posição anterior do maior numero, anteriormente salvo em "index".
+        
+        temp = arr[len-1];
+        arr[len-1] = max_nmbr;
+        arr[index] = temp;
+        sort(arr,len-1,true_lenght);
+
+        // por fim, chama a função recursivamente, de maneira em que, como o ultimo numero ja esteja ordenado,
+        // ele chamara len como o penultimo numero e por assim vai.
+
     }
-    if (cond == 1 && arr[0] == 0){
-        printf("Parentheses/braces are nested properly :)");
+
+}
+
+
+
+int main (){
+
+    // gera um array aleatorio, usando os segundos atuais como seed 
+
+    int arr[lenght];
+    srand(time(NULL));
+    for (int i = 0; i<lenght;i++){
+        arr[i] = rand()%lenght;
     }
-    else{
-        printf("Parentheses/braces arent nested properly or invalid char was typed :(");
-    }
+    sort(arr,lenght,lenght);
 }

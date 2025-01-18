@@ -1,29 +1,41 @@
 //
-//Filename: c:\Users\lucca\OneDrive\Documentos\Estudo_de_c\Estudo_doido\modulo_8\Exercicio_6.c
-//Path: c:\Users\lucca\OneDrive\Documentos\Estudo_de_c\Estudo_doido\modulo_8
-//Created Date: Sunday, December 29th 2024, 11:43:39 pm
-//Author: lucca
-//
-//Copyright (c) 2024 Your Company
+// Created by lucca on 21/12/2024.
 //
 #include <stdio.h>
+#include <ctype.h>
 
 
-double power(double n, int x){
-    double retorno = 1.0;
-    for (int i =0;i<=x;i++){
-        retorno*=n;
+int main() {
+    int ch,index = 0;
+    int string[64] = {string[0]=0};
+    printf("Enter message: ");
+    while ((ch = getchar()) != 10 || index == 64) {
+        string[index] = toupper(ch);
+        index++;
     }
-    return retorno; 
-}
+    int index_temp = index;
+    for (;index_temp<index+10;index_temp++) {
+        if (index_temp >= 64) {
+            break;
+        }
+        else {
+            string[index_temp] = '!';
+        }
+    }
+    for (int i = 0;i < index;i++) {
+        switch (string[i]){
 
-double calc_polinomial(double x){
-    return ((3*power(x,5))+(2*power(x,4))-(5*power(x,3)) - power(x,2) + (7 * x) -6);
-}
-
-int main(){
-    double x;
-    printf("Enter the number of x: %c",32);
-    scanf("%lf",&x);
-    printf("%.2lf",calc_polinomial(x));
+            case 'A': string[i] = 48+4;break;
+            case 'B': string[i] = 48+8;break;
+            case 'E': string[i] = 48+3;break;
+            case 'I': string[i] = 48+1;break;
+            case 'O': string[i] = 48+0;break;
+            case 'S': string[i] = 48+5;break;
+            default: continue;
+        }
+    }
+    printf("In B1FF-speak: ");
+    for(int j=0;j<index_temp;j++) {
+        printf("%c",string[j]);
+    }
 }
