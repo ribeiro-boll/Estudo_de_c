@@ -117,10 +117,39 @@
 //     printf("%d   %d\n",val1,val2);
 //     calc_area(&val1, &val2);
 // }
-#include <stdio.h>
-int main(){
-    int neg;
-    int *p = &neg;
-    *p = 3;
-    printf("%d",neg);
-}
+// #include <stdio.h>
+// void swap(int *p,int *q){
+//     int temp = *p;
+//     *p = *q;
+//     *q = temp;
+// }
+
+// int main(){
+//     int val1 =9, val2 = 12;
+//     int* p = &val1,*q = &val2;
+//     printf("%d    %d",*p,*q);
+//     swap(p, q);
+//     printf("\n%d    %d",*p,*q);
+    
+// }
+// #include <string.h>
+// #include <stdio.h>
+// int main(){
+//     char str[20] = "Ola mundo!";
+//     int len = strlen(str);
+//     char str_teste[len];
+//     char neg[30];
+//     for (int i =0; i<=len ; i++){
+//         if (i == len-2){
+//             str_teste[i] = '\0';
+//         }
+//         str_teste[i] = '.';
+//     }
+//     printf("%s          %d\n",str,len);
+//     len = strlen(str_teste);
+//     printf("%s          %d\n",str_teste,len);
+//     printf("%s          %s\n",str_teste,str);
+//     printf("%s          %s\n",str_teste,str);
+//     strcpy(neg, str);
+//     printf("%s          %s\n",str,neg);
+// }

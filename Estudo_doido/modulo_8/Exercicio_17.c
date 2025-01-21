@@ -8,12 +8,14 @@
 //
 
 #include <stdio.h>
-
+int nmbr=2;
 int main(){
-    int inicio,valor=1,matrix[99][99]={[0][0]=0},nmbr,y=0;
-
+    while (nmbr >=2){
+    int inicio,valor=1,matrix[99][99]={[0][0]=0},y=0;
     printf("Enter size of magic square: ");
     scanf("%d",&nmbr);
+    printf("\n");
+    printf("\n");
     inicio = nmbr/2;
     while (valor <= nmbr*nmbr){
         if (y<0){
@@ -45,4 +47,6 @@ int main(){
         printf("\n");
         printf("\n");
     }
+    }
+    return 0;
 }
