@@ -153,3 +153,70 @@
 //     strcpy(neg, str);
 //     printf("%s          %s\n",str,neg);
 // }
+// #include <string.h>
+// #include <stdio.h>
+// int main(){
+//     char ch[20];
+    
+//     fgets(ch,20,stdin);
+//     int tst = strlen(ch);
+//     printf("%d",tst-1);
+// }
+// #include <stdio.h>
+// struct pessoa {
+     
+//     int idade,cpf;
+//     char nome[50];
+// };
+
+// int main(){
+//     char ch;
+//     struct pessoa lucca;
+//     int *idade = &lucca.idade;
+//     char *nome = lucca.nome;
+//     int *cpf = &lucca.cpf;
+//     scanf("%s",nome);
+//     scanf("%d",idade);
+//     scanf("%d",cpf);
+//     printf("nome: %s   cpf:%d   idade: %d",lucca.nome,*cpf,*idade);
+
+// }
+#include <stdio.h>
+#include <limits.h>
+
+
+
+void qsort(int *arr,long int len,int true_lenght){
+    for(int i =0;i<true_lenght;i++){
+        printf("%d\t",arr[i]);
+    }
+    printf("\n");
+    if (0 == len){
+        return;
+    }
+    int max_int = arr[0],index_largest=0;
+    for (int i =0 ;i<len;i++){
+        if (arr[i]>=max_int){
+            index_largest = i;
+            max_int = arr[i];
+        }
+    }
+    int temp = arr[len-1];
+    arr[len-1] = max_int;
+    arr[index_largest]=temp;
+    qsort(arr, len-1, true_lenght);
+}
+
+
+int main(){
+    int sequencia[] = {2,6,1,7,9,4,6,89,4,7,9,4123,567,996,44,78,2,1};
+    long int lenght = (sizeof(sequencia)/4);
+    for(int i =0;i<lenght;i++){
+        printf("%d\t",sequencia[i]);
+    }
+    printf("\n");
+    qsort(sequencia,lenght,lenght);
+    for(int i =0;i<lenght;i++){
+        printf("%d\t",sequencia[i]);
+    }
+}
