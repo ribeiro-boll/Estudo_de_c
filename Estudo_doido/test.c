@@ -1,4 +1,8 @@
-// //
+#include <stdlib.h>
+#include <stdio.h>
+#include <ctype.h>
+#include <string.h>
+//
 //Filename: c:\Users\lucca\OneDrive\Documentos\Estudo_de_c\Estudo_doido\test.c
 //Path: c:\Users\lucca\OneDrive\Documentos\Estudo_de_c\Estudo_doido
 //Created Date: Wednesday, December 25th 2024, 7:23:40 am
@@ -181,42 +185,64 @@
 //     printf("nome: %s   cpf:%d   idade: %d",lucca.nome,*cpf,*idade);
 
 // }
-#include <stdio.h>
-#include <limits.h>
+// #include <stdio.h>
+// #include <limits.h>
 
 
 
-void qsort(int *arr,long int len,int true_lenght){
-    for(int i =0;i<true_lenght;i++){
-        printf("%d\t",arr[i]);
-    }
-    printf("\n");
-    if (0 == len){
-        return;
-    }
-    int max_int = arr[0],index_largest=0;
-    for (int i =0 ;i<len;i++){
-        if (arr[i]>=max_int){
-            index_largest = i;
-            max_int = arr[i];
-        }
-    }
-    int temp = arr[len-1];
-    arr[len-1] = max_int;
-    arr[index_largest]=temp;
-    qsort(arr, len-1, true_lenght);
-}
+// void qsort(int *arr,long int len,int true_lenght){
+//     for(int i =0;i<true_lenght;i++){
+//         printf("%d\t",arr[i]);
+//     }
+//     printf("\n");
+//     if (0 == len){
+//         return;
+//     }
+//     int max_int = arr[0],index_largest=0;
+//     for (int i =0 ;i<len;i++){
+//         if (arr[i]>=max_int){
+//             index_largest = i;
+//             max_int = arr[i];
+//         }
+//     }
+//     int temp = arr[len-1];
+//     arr[len-1] = max_int;
+//     arr[index_largest]=temp;
+//     qsort(arr, len-1, true_lenght);
+// }
 
 
-int main(){
-    int sequencia[] = {2,6,1,7,9,4,6,89,4,7,9,4123,567,996,44,78,2,1};
-    long int lenght = (sizeof(sequencia)/4);
-    for(int i =0;i<lenght;i++){
-        printf("%d\t",sequencia[i]);
-    }
-    printf("\n");
-    qsort(sequencia,lenght,lenght);
-    for(int i =0;i<lenght;i++){
-        printf("%d\t",sequencia[i]);
-    }
-}
+// int main(){
+//     int sequencia[] = {2,6,1,7,9,4,6,89,4,7,9,4123,567,996,44,78,2,1};
+//     long int lenght = (sizeof(sequencia)/4);
+//     for(int i =0;i<lenght;i++){
+//         printf("%d\t",sequencia[i]);
+//     }
+//     printf("\n");
+//     qsort(sequencia,lenght,lenght);
+//     for(int i =0;i<lenght;i++){
+//         printf("%d\t",sequencia[i]);
+//     }
+// }
+
+// int main(){
+//     int *p = malloc(1000000000000000000);
+//     if (!p){
+//         printf("nao foi");
+//     }
+//     else{
+//         printf("foi");
+//     }
+// }
+
+
+// struct node {
+//     int valor;
+//     struct node *next; 
+// };
+// struct node *first = NULL;
+// struct node *new_node;
+
+// int main(){
+// }
+
